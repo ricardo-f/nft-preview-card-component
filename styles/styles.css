@@ -1,0 +1,150 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  height: 100vh;
+  margin: auto;
+  padding: 0;
+  background: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+}
+
+section {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 0.625rem;
+  box-shadow: 0px 15px 15px 25px #0c1729;
+  padding: 25px;
+  max-height: auto;
+  max-width: 19rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 0.625rem;
+}
+
+section .link-title {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+section .link-title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+h1 {
+  width: 100%;
+  font-weight: 600;
+}
+
+p {
+  white-space: pre-line;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.price-card {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.price-card span {
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+
+.price-card img {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.eth-price {
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+  font-weight: 300;
+}
+
+.end-promo  {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+hr {
+  border: 0.050rem solid hsl(215, 32%, 27%);
+}
+
+.author-card {
+  display: inline-flex;
+  justify-content: row;
+  align-items: start;
+  margin-top: 15px;
+}
+
+.author-card span {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+
+.author-card img {
+  width: 10%;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+  margin-right: 13px;
+}
+
+.author-card a {
+  margin-left: 3px;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.author-card a:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  margin-top: 35px;
+  font-size: 11px;
+  text-align: center;
+  te
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+  }
+
+  section {
+    max-width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .author-card img {
+    width: 20%;
+  }
+
+  .author-card p {
+    margin-right: 10px;
+  }
+}
